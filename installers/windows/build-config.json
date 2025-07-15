@@ -1,0 +1,54 @@
+{
+  "product": {
+    "name": "Timekeeper",
+    "description": "Advanced Time Management System",
+    "version": "1.0.0",
+    "manufacturer": "andrrff",
+    "website": "https://github.com/andrrff",
+    "supportUrl": "https://github.com/andrrff/issues"
+  },
+  "architectures": [
+    {
+      "name": "x64",
+      "runtime": "win-x64",
+      "displayName": "64-bit (x64)",
+      "platformId": "x64",
+      "programFilesFolder": "ProgramFiles64Folder"
+    },
+    {
+      "name": "x86",
+      "runtime": "win-x86", 
+      "displayName": "32-bit (x86)",
+      "platformId": "x86",
+      "programFilesFolder": "ProgramFilesFolder"
+    },
+    {
+      "name": "arm64",
+      "runtime": "win-arm64",
+      "displayName": "ARM 64-bit",
+      "platformId": "arm64",
+      "programFilesFolder": "ProgramFiles64Folder"
+    }
+  ],
+  "features": {
+    "systemTray": true,
+    "desktopShortcut": true,
+    "startMenuShortcut": true,
+    "addToPath": true,
+    "fileAssociations": true,
+    "autoStart": false
+  },
+  "directories": {
+    "applicationData": "%APPDATA%\\Timekeeper",
+    "localApplicationData": "%LOCALAPPDATA%\\Timekeeper",
+    "logs": "%LOCALAPPDATA%\\Timekeeper\\Logs",
+    "database": "%APPDATA%\\Timekeeper\\Data"
+  },
+  "uninstall": {
+    "removeUserData": false,
+    "removeApplicationData": true,
+    "removeRegistryEntries": true,
+    "removeShortcuts": true,
+    "removeFromPath": true
+  }
+}

@@ -1,0 +1,15 @@
+<Project Sdk="WiX.SDK/4.0.5">
+  <PropertyGroup>
+    <OutputType>Package</OutputType>
+    <OutputPath>C:\Users\andre\Documents\Timekeeper\dist\windows\msi</OutputPath>
+    <OutputName>Timekeeper-1.0.0-x64</OutputName>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Compile Include="C:\Users\andre\Documents\Timekeeper\installers\windows\wix\Timekeeper-x64.wxs" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <WixExtension Include="WixToolset.UI.wixext" />
+  </ItemGroup>
+</Project>

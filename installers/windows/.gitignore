@@ -1,0 +1,29 @@
+# Windows Installer Build Artifacts
+/wix/*.wixobj
+/wix/*.wixpdb
+/wix/Timekeeper-*.wxs
+/wix/License.rtf
+
+# Build outputs  
+/../../dist/windows/
+**/bin/
+**/obj/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+
+# OS generated files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+logs/

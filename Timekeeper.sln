@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C4271153-61DD-4500-B9A9-3C6C30856BBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{827E02E7-E88B-4162-8F5F-000B8C1FD316}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timekeeper.Domain", "src\Domain\Timekeeper.Domain\Timekeeper.Domain.csproj", "{F8237842-61AF-4204-8AF9-6A54E1CA7E36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{9764CE18-43B9-4378-9AF1-0CD863006415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timekeeper.Application", "src\Application\Timekeeper.Application\Timekeeper.Application.csproj", "{1946CEAD-C4FF-4B9C-B743-7625477384DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{29EA96EA-C21A-4B1E-9E6D-BD052074CAFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timekeeper.Infrastructure", "src\Infrastructure\Timekeeper.Infrastructure\Timekeeper.Infrastructure.csproj", "{F16EEC78-00C4-4E63-96F4-28009F3E80D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CLI", "CLI", "{44C03786-AAE7-4C7D-8095-102A30E548AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timekeeper.CLI", "src\CLI\Timekeeper.CLI\Timekeeper.CLI.csproj", "{64350A26-711B-465D-90C3-E9A589A94CCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8237842-61AF-4204-8AF9-6A54E1CA7E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8237842-61AF-4204-8AF9-6A54E1CA7E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8237842-61AF-4204-8AF9-6A54E1CA7E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8237842-61AF-4204-8AF9-6A54E1CA7E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1946CEAD-C4FF-4B9C-B743-7625477384DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1946CEAD-C4FF-4B9C-B743-7625477384DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1946CEAD-C4FF-4B9C-B743-7625477384DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1946CEAD-C4FF-4B9C-B743-7625477384DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F16EEC78-00C4-4E63-96F4-28009F3E80D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F16EEC78-00C4-4E63-96F4-28009F3E80D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F16EEC78-00C4-4E63-96F4-28009F3E80D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F16EEC78-00C4-4E63-96F4-28009F3E80D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64350A26-711B-465D-90C3-E9A589A94CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64350A26-711B-465D-90C3-E9A589A94CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64350A26-711B-465D-90C3-E9A589A94CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64350A26-711B-465D-90C3-E9A589A94CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{827E02E7-E88B-4162-8F5F-000B8C1FD316} = {C4271153-61DD-4500-B9A9-3C6C30856BBA}
+		{F8237842-61AF-4204-8AF9-6A54E1CA7E36} = {827E02E7-E88B-4162-8F5F-000B8C1FD316}
+		{9764CE18-43B9-4378-9AF1-0CD863006415} = {C4271153-61DD-4500-B9A9-3C6C30856BBA}
+		{1946CEAD-C4FF-4B9C-B743-7625477384DE} = {9764CE18-43B9-4378-9AF1-0CD863006415}
+		{29EA96EA-C21A-4B1E-9E6D-BD052074CAFA} = {C4271153-61DD-4500-B9A9-3C6C30856BBA}
+		{F16EEC78-00C4-4E63-96F4-28009F3E80D3} = {29EA96EA-C21A-4B1E-9E6D-BD052074CAFA}
+		{44C03786-AAE7-4C7D-8095-102A30E548AE} = {C4271153-61DD-4500-B9A9-3C6C30856BBA}
+		{64350A26-711B-465D-90C3-E9A589A94CCC} = {44C03786-AAE7-4C7D-8095-102A30E548AE}
+	EndGlobalSection
+EndGlobal
