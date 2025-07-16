@@ -1,37 +1,56 @@
+```
+  _____   _                      _
+ |_   _| (_)  _ __ ___     ___  | | __   ___    ___   _ __     ___   _ __
+   | |   | | | '_ ` _ \   / _ \ | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+   | |   | | | | | | | | |  __/ |   <  |  __/ |  __/ | |_) | |  __/ | |
+   |_|   |_| |_| |_| |_|  \___| |_|\_\  \___|  \___| | .__/   \___| |_|
+                                                     |_|
+```
+
 # 🕐 Timekeeper - Advanced Time Management System
 
 A comprehensive, cross-platform time management system with background monitoring, notifications, and DevOps integrations.
 
 ## ✨ Features
 
-### 🚀 Core Features
+### 🚀 Core Features (Implemented)
 - **Interactive CLI Interface** - Full-featured command-line interface for task management
 - **Background Service** - Runs silently monitoring your tasks and timers
 - **Cross-Platform** - Windows, Linux, and macOS support
 - **Smart Notifications** - Get notified about overdue tasks, long-running timers, and external updates
 - **System Tray Integration** - Quick access from your system tray (Windows)
-- **DevOps Integration** - Sync with Azure DevOps, Jira, GitHub, and more
+- **DevOps Integration** - Sync with Azure DevOps and GitHub
+- **Automated Installers** - MSI and portable packages for Windows with multi-architecture support
 
-### ⏱️ Time Tracking
+### ⏱️ Time Tracking (Implemented)
 - **Automatic Timers** - Start/stop timers with automatic time calculation
 - **Manual Time Entry** - Add time manually for past work
 - **Multiple Active Timers** - Track time on multiple tasks simultaneously
 - **Time Reports** - Daily, weekly, and custom time reports
 - **Break Reminders** - Smart suggestions for breaks during long work sessions
+- **Productivity Analytics** - Time distribution analysis and completion rates
 
-### 📋 Task Management
+### 📋 Task Management (Implemented)
 - **Complete CRUD Operations** - Create, edit, delete, and manage tasks
 - **Priority Levels** - Set and manage task priorities
 - **Due Dates** - Track deadlines and get reminders
 - **Status Tracking** - Pending, In Progress, Completed states
 - **Categories & Tags** - Organize tasks with custom categories
 - **Estimated vs Actual Time** - Compare planned vs actual time spent
+- **Activity Logging** - Complete audit trail of task changes
 
-### 🔗 Integrations
-- **DevOps Platforms** - Azure DevOps, Jira, GitHub, GitLab
+### 🔗 Current Integrations (Implemented)
+- **Azure DevOps** - Work items, boards, and time tracking
+- **GitHub** - Issues and project boards
 - **Real-time Sync** - Bidirectional synchronization with external systems
 - **Status Updates** - Get notified when external tasks change status
 - **Work Item Linking** - Link local tasks to external work items
+
+### 📊 Reports & Analytics (Implemented)
+- **Comprehensive Reports** - Time logs by task, date range, and category
+- **Daily/Weekly Summaries** - Detailed time allocation breakdowns
+- **Productivity Insights** - Peak hours, completion rates, and efficiency metrics
+- **Data Export** - Export data in multiple formats (CSV, JSON, XML)
 
 ## 🚀 Quick Start
 
@@ -233,11 +252,96 @@ Configure external integrations through the CLI:
 3. Select "🔗 DevOps Integration"
 4. Follow the setup wizard for your platform
 
-Supported platforms:
+**Currently Supported:**
 - **Azure DevOps** - Work items, boards, and time tracking
-- **Jira** - Issues, projects, and time logging
 - **GitHub** - Issues and project boards
+
+**Coming Soon:**
 - **GitLab** - Issues and merge requests
+- **Atlassian (Jira/Confluence)** - Issues, projects, and time logging
+- **BitBucket** - Pull requests and issues
+
+## 🚀 Roadmap
+
+### 🔗 Integrations & Connectivity (Phase 1)
+- [ ] **Atlassian Integration** - Jira and Confluence support with advanced workflow management
+- [ ] **GitLab Integration** - Issues, merge requests, and pipeline tracking
+- [ ] **BitBucket Integration** - Pull requests, issues, and repository management
+- [ ] **Git Analysis** - Examine commits, branches, changesets related to tasks
+  - Automatic time tracking based on commit frequency
+  - Link commits to specific tasks
+  - Branch lifecycle tracking
+
+### 🤖 AI-Powered Features (Phase 2)
+- [ ] **AI Commit Summaries** - Generate intelligent summaries of commits, branches, and changesets
+- [ ] **Multi-Provider AI Agents** - Support for multiple AI providers:
+  - Anthropic (Claude)
+  - Google (Gemini)
+  - Meta (Llama)
+  - xAI (Grok)
+  - OpenAI (GPT)
+  - Microsoft (Azure OpenAI)
+  - DeepSeek
+- [ ] **Smart Task Comments** - AI-generated comments and insights for integrated tasks
+- [ ] **Productivity AI Assistant** - Intelligent suggestions for time management and task optimization
+
+### 📅 Calendar & Meeting Integration (Phase 3)
+- [ ] **Calendar Sync** - Integration with major calendar providers:
+  - Google Calendar
+  - Microsoft Outlook/365
+  - Slack Calendar
+  - Zoom Scheduler
+- [ ] **Meeting Time Tracking** - Automatic time logging from:
+  - Microsoft Teams call history
+  - Google Meet sessions
+  - Discord voice/video calls
+  - Slack huddles and calls
+  - Zoom meetings
+- [ ] **Smart Meeting Analysis** - AI-powered meeting summaries and time allocation
+
+### 🔄 Advanced Automation (Phase 4)
+- [ ] **Webhook System** - Real-time notifications and data export
+  - Custom webhook endpoints
+  - Scheduled data exports
+  - Integration with external monitoring systems
+- [ ] **Project Management** - Advanced project organization
+  - Multi-task projects with mixed providers
+  - Project-level time tracking and reporting
+  - Cross-provider task dependencies
+
+### 👥 Collaboration Features (Phase 5)
+- [ ] **Team Management** - Multi-user support with role-based access
+  - Admin, Developer, Support, and custom roles
+  - Team-wide time tracking and reporting
+  - Collaborative task management
+- [ ] **Organization Support** - Enterprise-level features
+  - Multi-team organizations
+  - Centralized configuration management
+  - Advanced security and compliance
+
+### 🌐 Web Platform (Phase 6)
+- [ ] **Web Application** - Full-featured web interface
+  - All CLI features in a modern web UI
+  - Real-time collaboration
+  - Advanced dashboards and analytics
+  - Mobile-responsive design
+
+### 🔌 API & Integration Platform (Phase 7)
+- [ ] **Comprehensive APIs** - Full programmatic access
+  - User-level API for personal automation
+  - Organization-level API for enterprise integration
+  - Webhook subscriptions and real-time events
+  - GraphQL and REST endpoints
+
+### 🐳 Deployment & DevOps (Phase 8)
+- [ ] **Docker Containers** - Containerized deployments
+  - CLI container for CI/CD pipelines
+  - Web application container
+  - Background service container
+  - Database migration containers
+  - Multi-architecture support (AMD64, ARM64)
+
+---
 
 ## 🔄 Service Management
 
@@ -348,11 +452,46 @@ Timekeeper provides comprehensive reporting:
 
 ## 🤝 Contributing
 
+We welcome contributions to Timekeeper! Here's how you can help:
+
+### Current Focus Areas
+- Testing and bug reports for existing features
+- Documentation improvements
+- Cross-platform compatibility testing
+- Performance optimizations
+
+### Upcoming Development
+- AI integration features (Phase 2)
+- Calendar and meeting integrations (Phase 3)
+- Web platform development (Phase 6)
+
+### How to Contribute
 1. Fork the repository
-2. Create a feature branch
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Make your changes
 4. Add tests if applicable
-5. Submit a pull request
+5. Commit your changes (`git commit -m 'Add amazing feature'`)
+6. Push to the branch (`git push origin feature/amazing-feature`)
+7. Submit a pull request
+
+### Development Setup
+```bash
+# Clone your fork
+git clone https://github.com/yourusername/timekeeper.git
+cd timekeeper
+
+# Restore dependencies
+dotnet restore
+
+# Build the solution
+dotnet build
+
+# Run tests
+dotnet test
+
+# Install for development
+./scripts/install-dev.ps1
+```
 
 ## 📄 License
 
@@ -360,11 +499,29 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- Built with .NET 9 and Entity Framework
-- CLI powered by Spectre.Console
-- Cross-platform notifications
-- System tray integration
+- Built with .NET 9 and Entity Framework Core
+- CLI powered by Spectre.Console for beautiful terminal interfaces
+- Cross-platform notifications with platform-specific implementations
+- System tray integration using native Windows APIs
+- SQLite for local data storage and migrations
+- Advanced installer system with WiX Toolset for Windows
+- Multi-architecture support (x64, x86, ARM64)
+
+### Special Thanks
+- Microsoft .NET team for excellent cross-platform runtime
+- Spectre.Console contributors for amazing CLI framework
+- SQLite team for robust embedded database
+- All beta testers and early adopters
+
+### Technology Stack
+- **Backend**: .NET 9, Entity Framework Core, SQLite
+- **CLI**: Spectre.Console, System.CommandLine
+- **Cross-Platform**: .NET runtime with native integrations
+- **Packaging**: WiX Toolset (Windows), Native installers (Linux/macOS)
+- **Architecture**: Clean Architecture with CQRS pattern
 
 ---
 
 **Timekeeper** - Making time management effortless and productive! ⏰✨
+
+*Current Version: 1.0.0 | Next Major Release: 2.0.0 (Web Platform)*
